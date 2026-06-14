@@ -1,0 +1,14 @@
+youtube https://youtu.be/Zq4upTEaQyM?si=E46cW7DFZDzwF9t4&t=329
+  def explore(current_state):
+    
+    # STEP 1: Base case - are we done?
+    if goal_reached:
+        save answer
+        return
+
+    # STEP 2: Try every possible choice
+    for choice in all_choices:
+        
+        make the choice      # ✅ Do it
+        explore(next_state)  # 🔁 Go deeper
+        undo the choice      # ↩️ Backtrack
