@@ -1,0 +1,15 @@
+leetcode subset problem foundation for backtracking
+
+
+given target = 10
+ and a set { 1,2,3,6,7}
+ we need to print the sum that equals target
+
+ 1+2+7
+ 3+7
+ 1+3+6
+
+ https://claude.ai/share/9c874810-9cda-4c41-8267-490cad89f975
+
+
+ help to rectify errors using claude ai
